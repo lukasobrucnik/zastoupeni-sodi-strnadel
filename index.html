@@ -14,17 +14,19 @@
 <meta property="og:site_name" content="Strnadel Motorsport × SODI">
 <meta property="og:url" content="https://sodi.cz/">
 <meta property="og:title" content="SODI motokáry ČR | Výhradní zastoupení – Strnadel Motorsport">
-<meta property="og:description" content="Strnadel Motorsport je oficiálním zastoupením SODI závodních motokár pro Českou republiku. Objednávky a poptávky motokár SODI.">
+<meta property="og:description" content="Závodní motokáry SODI v Česku: prodej, náhradní díly a servis. Strnadel Motorsport je výhradním zastoupením SODI Kart Racing pro ČR.">
 <meta property="og:image" content="https://sodi.cz/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Strnadel Motorsport × SODI – výhradní zastoupení SODI pro ČR">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SODI motokáry ČR | Výhradní zastoupení – Strnadel Motorsport">
-<meta name="twitter:description" content="Strnadel Motorsport je oficiálním zastoupením SODI závodních motokár pro Českou republiku. Objednávky a poptávky motokár SODI.">
+<meta name="twitter:description" content="Závodní motokáry SODI v Česku: prodej, náhradní díly a servis. Strnadel Motorsport je výhradním zastoupením SODI Kart Racing pro ČR.">
 <meta name="twitter:image" content="https://sodi.cz/assets/og-image.jpg">
 
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%230a0a0a%22/><text x=%2250%25%22 y=%2262%25%22 font-size=%2260%22 fill=%22%23d7ff2a%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-weight=%22900%22>S</text></svg>">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -32,24 +34,36 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "AutomotiveBusiness",
-  "name": "Strnadel Motorsport",
-  "alternateName": "Strnadel Motorsport × SODI",
-  "description": "Oficiální zastoupení SODI závodních motokár pro Českou republiku.",
-  "url": "https://sodi.cz/",
-  "image": "https://sodi.cz/assets/og-image.jpg",
-  "email": "Motorsport.strnadel@gmail.com",
-  "telephone": "+420775177772",
-  "areaServed": {
-    "@type": "Country",
-    "name": "Česká republika"
-  },
-  "brand": {
-    "@type": "Brand",
-    "name": "SODI"
-  },
-  "sameAs": [
-    "https://strnadelmotorsport.cz/"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://sodi.cz/#website",
+      "url": "https://sodi.cz/",
+      "name": "SODI motokáry ČR",
+      "inLanguage": "cs-CZ",
+      "publisher": { "@id": "https://strnadelmotorsport.cz/#sodi" }
+    },
+    {
+      "@type": "AutomotiveBusiness",
+      "@id": "https://strnadelmotorsport.cz/#sodi",
+      "name": "Strnadel Motorsport – výhradní zastoupení SODI pro ČR",
+      "alternateName": "Strnadel Motorsport × SODI",
+      "description": "Prodej, náhradní díly a servis závodních motokár SODI Kart Racing v České republice.",
+      "url": "https://sodi.cz/",
+      "logo": "https://sodi.cz/apple-touch-icon.png",
+      "image": "https://sodi.cz/assets/og-image.jpg",
+      "email": "Motorsport.strnadel@gmail.com",
+      "telephone": "+420775177772",
+      "address": { "@type": "PostalAddress", "addressCountry": "CZ" },
+      "areaServed": { "@type": "Country", "name": "Česká republika" },
+      "brand": { "@type": "Brand", "name": "SODI" },
+      "parentOrganization": { "@id": "https://strnadelmotorsport.cz/#tym" },
+      "sameAs": [
+        "https://strnadelmotorsport.cz/",
+        "https://www.instagram.com/strnadelmotorsport/",
+        "https://www.facebook.com/p/Motorsport-Strnadel-100067773919892/"
+      ]
+    }
   ]
 }
 </script>
@@ -87,7 +101,7 @@
         <a href="https://strnadelmotorsport.cz/" target="_blank" rel="noopener" class="btn btn-ghost">Web týmu Strnadel&nbsp;Motorsport&nbsp;→</a>
       </div>
     </div>
-    <img src="assets/photos/hero.jpg" alt="" class="hero-bg" width="1920" height="1280">
+    <img src="assets/photos/hero.jpg" alt="" class="hero-bg" width="1920" height="1280" fetchpriority="high">
     <div class="hero-glow" aria-hidden="true"></div>
   </section>
 
@@ -154,7 +168,7 @@
 
 <footer class="site-footer">
   <div class="wrap footer-inner">
-    <p>© <span id="year"></span> Strnadel Motorsport — oficiální zastoupení SODI pro ČR.</p>
+    <p>© <span id="year">2026</span> Strnadel Motorsport — výhradní zastoupení SODI pro ČR.</p>
     <a href="https://strnadelmotorsport.cz/" target="_blank" rel="noopener">strnadelmotorsport.cz</a>
   </div>
 </footer>
