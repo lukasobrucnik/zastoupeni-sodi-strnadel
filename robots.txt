@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lukasobrucnik.github.io/zastoupeni-sodi-strnadel/sitemap.xml
+Sitemap: https://sodi.cz/sitemap.xml
