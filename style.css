@@ -114,15 +114,7 @@ ul{list-style:none;}
   color:var(--text-dim);
 }
 
-.brand-chip{
-  display:inline-flex;
-  align-items:center;
-  background:var(--white);
-  padding:6px 10px;
-  border-radius:8px;
-}
-
-.brand-chip .brand-logo--sodi{height:32px;}
+.brand-logo--sodi{height:30px;}
 
 .eyebrow{
   display:inline-flex;
@@ -368,8 +360,7 @@ h2{
   .nav-cta{padding:9px 14px; font-size:13px;}
   .brand-lockup{gap:12px; margin-bottom:24px;}
   .brand-logo{height:26px;}
-  .brand-chip{padding:5px 8px;}
-  .brand-chip .brand-logo--sodi{height:24px;}
+  .brand-logo--sodi{height:23px;}
   .hero-actions{flex-direction:column; align-items:stretch;}
   .btn{width:100%; padding:16px 20px;}
   .sodi-points li{padding:16px;}
