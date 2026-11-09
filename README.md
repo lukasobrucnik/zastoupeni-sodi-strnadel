@@ -1,6 +1,6 @@
 # Strnadel Motorsport × SODI
 
-Jednoduchá one-page prezentace: Strnadel Motorsport jako oficiální zastoupení SODI závodních motokár pro Českou republiku.
+Jednoduchá one-page prezentace: Strnadel Motorsport jako prodejce závodních motokár SODI pro Českou republiku.
 
 - `index.html` — struktura stránky
 - `style.css` — vzhled (tmavé pozadí a neon ze Strnadel Motorsport, modro-bílo-červený akcent SODI)
